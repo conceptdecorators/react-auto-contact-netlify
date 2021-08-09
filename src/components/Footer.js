@@ -1,6 +1,5 @@
 import React from "react";
-import { Link, Redirect } from "react-router-dom";
-
+import { Redirect } from "react-router-dom";
 import "./Footer.css";
 import ImageOne from "../images/wiz-auto-logo-white-small.png";
 import { FaFacebook } from "react-icons/fa";
@@ -68,23 +67,44 @@ const Footer = () => {
               Wiz Auto {today.getFullYear()}. All rights reserved
             </p>
             <div className="social_icons">
-              <a href="/" className="social_icons-link" target="_blank">
+              <a
+                href="/"
+                className="social_icons-link"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="bx bxl-facebook-circle"></i>
               </a>
-              <a href="/" className="social_icons-link" target="_blank">
+              <a
+                href="/"
+                className="social_icons-link"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaFacebook />
               </a>
-              <a href="/" className="social_icons-link" target="_blank">
+              <a
+                href="/"
+                className="social_icons-link"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaTwitterSquare />
               </a>
               <a
                 href="https://www.instagram.com/wizauto_/"
                 className="social_icons-link"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FaInstagramSquare />
               </a>
-              <a href="/" className="social_icons-link" target="_blank"></a>
+              <a
+                href="/"
+                className="social_icons-link"
+                target="_blank"
+                rel="noreferrer"
+              ></a>
             </div>
             {/* <!-- social_icons --> */}
           </div>

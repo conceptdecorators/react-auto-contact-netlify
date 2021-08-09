@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { FaCocktail, FaHiking, FaShuttleVan, FaBeer } from "react-icons/fa";
 import { ImWrench } from "react-icons/im";
 import { HiClipboardCheck } from "react-icons/hi";
 import { FaHandshake } from "react-icons/fa";

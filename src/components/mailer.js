@@ -2,7 +2,7 @@ import emailjs from "emailjs-com";
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
-import { GrContactInfo } from "react-icons/gr";
+// import { GrContactInfo } from "react-icons/gr";
 
 const Mailer = () => {
   function sendEmail(e) {
