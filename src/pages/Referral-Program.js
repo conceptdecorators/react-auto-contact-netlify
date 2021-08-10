@@ -59,6 +59,30 @@ const RefferalProgram = () => {
             <div class="input-container">
               <input type="text" name="first-name" class="input" id="name" />
 
+              <label htmlFor="first-name">Referral Name</label>
+              <span>Referral Name</span>
+            </div>
+
+            <div class="input-container">
+              <input type="email" name="email" class="input" id="email" />
+              <label htmlFor="email">Referral Email</label>
+              <span>Referral Email</span>
+            </div>
+
+            <div class="input-container">
+              <input
+                type="tel"
+                name="entry.43082825"
+                class="input"
+                id="phone"
+              />
+              <label for="">Referral Phone</label>
+              <span>Referral Phone</span>
+            </div>
+
+            <div class="input-container">
+              <input type="text" name="first-name" class="input" id="name" />
+
               <label htmlFor="first-name">Name</label>
               <span>Name</span>
             </div>
@@ -77,6 +101,7 @@ const RefferalProgram = () => {
               <label for="">Phone</label>
               <span>Phone</span>
             </div>
+
             <div class="input-container textarea">
               <textarea name="message" class="input" id="message"></textarea>
               <label htmlFor="message">Message</label>

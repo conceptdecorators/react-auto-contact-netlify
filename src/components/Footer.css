@@ -129,3 +129,29 @@
 .footer_container a:hover {
   color: var(--primaryColor);
 }
+@media screen and (max-width: 768px) {
+  .footer_links {
+    width: 100%;
+    max-width: 1000px;
+    display: inline;
+    justify-content: center;
+  }
+  .footer_link-wrapper {
+    display: inline;
+  }
+  .footer_container {
+    /* background-color: var(--primaryColor); */
+    background-color: var(--mainBlack);
+    padding: 5rem 35px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .social_media-wrap {
+    display: inline;
+  }
+  .social_media {
+    max-width: 500px;
+    width: 50%;
+  }
+}

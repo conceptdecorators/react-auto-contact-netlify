@@ -55,10 +55,10 @@ const About = () => {
             dealership.
           </p>
 
-          <a class="btn-primary info-btn" href="/cars">
+          <a class="btn-primary info-btn" href="/rooms">
             browse cars
           </a>
-          <a class="btn-primary btn-secondary" href="/cars">
+          <a class="btn-primary btn-secondary" href="#program">
             schedule pickup
           </a>
         </div>

@@ -173,6 +173,9 @@ h3 {
   color: #023d91;
   font-size: 25px;
 }
+.cars-title {
+  text-align: center;
+}
 /* testimonal section */
 .testimonal {
   padding: 5rem 0;
@@ -318,7 +321,7 @@ h3 {
   /* padding-bottom: 1.3125rem;
   padding-top: 1.3125rem; */
   width: 60%;
-  padding: 50px 50px;
+  padding: 25px 50px;
   /* margin-bottom: 20px; */
   color: #10131d;
   font-size: 21px;
@@ -640,7 +643,27 @@ textarea.input {
     margin: 0 1rem;
     padding: 0.5rem 0;
   }
+  
+  .footer_links {
+    width: 100%;
+    max-width: 1000px;
+    display: inline;
+    justify-content: center;
+  }
+  .footer_link-wrapper {
+    display: inline;
+  }
+  .footer_container {
+    /* background-color: var(--primaryColor); */
+    background-color: var(--mainBlack);
+    padding: 5rem 35px;
+    display: inline;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
+
 /* end of navbar */
 p {
   line-height: 1.5;
@@ -674,7 +697,8 @@ p {
   background-position: center;
 }
 .contactHero {
-  min-height: 60vh;
+  background-image: url("./images/car-sale-keys.png");
+  min-height: 58vh;
   background-color: var(--primaryColor);
   background-position: center;
 }
@@ -1147,7 +1171,19 @@ p {
     opacity: 0.8;
   }
   .banner-2 {
-    transform: translateY(150%);
+    display: inline-block;
+    /* background: rgba(0, 0, 0, 0.5); */
+    color: var(--mainWhite);
+    padding: 2rem 1rem;
+    /* text-align: center; */
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+    background: var(--mainBlack);
+    border-radius: 4px;
+    justify-content: center;
+    /* padding: 24px 56px 40px; */
+    width: 90%;
+    transform: translateY(110%);
     opacity: 0.9;
   }
   /* testimonal */
