@@ -1,8 +1,8 @@
 /*    /index.html   200
-/pages/Home.js 200
-/pages/About.js 200
-/pages/Cars.js 200
-/pages/Contact.js 200
-/pages/Error.js 200
-/pages/Referral-Program.js 200
-/SingleRoom.js 200
+/Home              /
+/About              /About
+/Cars				/Cars
+/Contact			/Contact
+/Error				/Error
+/Referral-Program	/Referral-Program
+/SingleRoom			/SingleRoom
