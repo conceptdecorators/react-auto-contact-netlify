@@ -30,13 +30,51 @@ const RefferalProgram = () => {
               <div />
               <p>
                 {" "}
-                E-Shop Program is delivering the complete dealership experience
-                online, from vehicle inventory to finance. Home{" "}
+                Take Advantage of our referral program and Earn extra money{" "}
               </p>
             </div>
           </div>
         </div>
       </div>
+      <div className="filter-container">
+        <div class="section-title">
+          <h4> Take Advantage of our referral program and Earn extra money</h4>
+          <div></div>
+          <p class="info-paragraph">
+            Tell your family, friends and coworkers about your great experience
+            at Wiz Auto. Let them know about the opportunity to find reasonable
+            inspected car selections. When you refer someone to Wiz Auto you
+            will earn extra money for every referral.
+          </p>
+        </div>
+
+        <div className="flexcolwrap">
+          <div className="flex3col">
+            <h4>How it works</h4>
+            <p class="small-p">
+              It's simple and there's no limit, fill out the form with the
+              necessary information and just complete the form below.
+            </p>
+          </div>
+          <div className="flex3col">
+            <h4>Make a Referral Eligibility</h4>
+            <p class="small-p">
+              Fill out the form below to register and contact Wiz Auto and
+              inform them of the customer you'll be referring to the dealership.
+              Referral check will be mailed on file within 30 days of your
+              referral purchase.
+            </p>
+          </div>
+          <div className="flex3col">
+            <h4>Referral Program Details</h4>
+            <p class="small-p">
+              Please follow these details that you need to understand for your
+              referral to be valid:
+            </p>
+          </div>
+        </div>
+      </div>
+
       {/* form */}
       <div className="filter-container">
         <div class="section-title">

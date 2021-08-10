@@ -58,7 +58,7 @@ const About = () => {
           <a class="btn-primary info-btn" href="/rooms">
             browse cars
           </a>
-          <a class="btn-primary btn-secondary" href="#program">
+          <a class="btn-primary btn-secondary" href="/contact/#program">
             schedule pickup
           </a>
         </div>

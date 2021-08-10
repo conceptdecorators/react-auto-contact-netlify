@@ -47,12 +47,10 @@ const Footer = () => {
             </div> */}
             <div className="footer_link-items">
               <h2 className="footer-heading">Follow Us</h2>
-              <a href="/">Instagram</a>
-              <a href="https://www.youtube.com/user/zilah126/videos">Youtube</a>
-              <a href="https://www.facebook.com/Zilah-Music-Publishing-162465233801098/#">
-                Facebook
-              </a>
-              <a href="https://twitter.com/zilahmusicpub">Twitter</a>
+              <a href="https://www.instagram.com/wizauto_/">Instagram</a>
+              <a href="/">Youtube</a>
+              <a href="/">Facebook</a>
+              <a href="/">Twitter</a>
             </div>
           </div>
         </div>

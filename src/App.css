@@ -336,6 +336,25 @@ h3 {
   padding: 50px 50px;
   width: 80%;
 }
+.flexcolwrap {
+  display: flex;
+  margin-top: -20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-bottom: 0px solid #d4d4d4;
+  background: #d4d4d4;
+  border-radius: 10px;
+  color: #023d91;
+  padding: 50px 50px;
+  position: relative;
+  margin: 100px;
+}
+.flex3col {
+  width: 33.333%;
+  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 /* Contact us */
 .container {
   position: relative;
@@ -643,7 +662,11 @@ textarea.input {
     margin: 0 1rem;
     padding: 0.5rem 0;
   }
-  
+
+  /* contact width */
+  .width-adjust {
+    width: 70%;
+  }
   .footer_links {
     width: 100%;
     max-width: 1000px;
@@ -749,7 +772,8 @@ p {
   background-position: center;
 }
 .responsive-inner {
-  /* transform: translateX(50%); */
+  transform: translateY(85%);
+  margin: 25px;
 }
 .banner-2 {
   display: inline-block;
@@ -762,15 +786,15 @@ p {
 
   background: var(--mainBlack);
   border-radius: 4px;
-  /* margin-right: 32px;
-  margin-top: 113px; */
+  margin-right: 32px;
+  margin-top: 113px;
   -webkit-justify-content: center;
   justify-content: center;
   /* padding: 24px 56px 40px; */
   width: 40%;
   /* top: 55%;
   right: 5%; */
-  transform: translateY(145%);
+  /* transform: translateY(145%); */
   opacity: 0.9;
 }
 .banner-2 img {
@@ -796,8 +820,10 @@ p {
     font-size: 3rem;
   }
   .banner-2 {
-    transform: translateY(100%);
+    /* transform: translateY(75%); */
+    padding: 2rem 2rem;
     opacity: 0.9;
+    width: 80%;
   }
 }
 @media screen and (min-width: 992px) {
@@ -808,8 +834,10 @@ p {
     font-size: 4rem;
   }
   .banner-2 {
-    transform: translateY(150%);
+    /* transform: translateY(90%); */
     opacity: 0.9;
+    padding: 2rem 2rem;
+    width: 40%;
   }
 }
 /* End of Banner */
@@ -1163,28 +1191,31 @@ p {
   .container .card {
     margin: 40px 20px;
   }
+  .flex3col {
+    width: 100%;
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
 }
 
 @media (max-width: 420px) {
+  .responsive-inner {
+    transform: translateY(20%);
+    margin: 0px;
+  }
   .banner {
     padding: 2rem 3rem;
     opacity: 0.8;
   }
   .banner-2 {
-    display: inline-block;
-    /* background: rgba(0, 0, 0, 0.5); */
-    color: var(--mainWhite);
-    padding: 2rem 1rem;
-    /* text-align: center; */
-    text-transform: capitalize;
-    letter-spacing: var(--mainSpacing);
-    background: var(--mainBlack);
-    border-radius: 4px;
-    justify-content: center;
-    /* padding: 24px 56px 40px; */
-    width: 90%;
-    transform: translateY(110%);
-    opacity: 0.9;
+    padding: 2rem 2rem;
+    width: 80%;
+    /* transform: translateY(90%); */
+  }
+  .info-paragraph {
+    text-align: center;
+    width: 100%;
   }
   /* testimonal */
   .container .card .content {
@@ -1192,6 +1223,32 @@ p {
   }
   .container .card:hover img {
     height: 300px;
+  }
+  .width-adjust {
+    width: 100%;
+  }
+  .flexcolwrap {
+    display: flex;
+    margin-top: -20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 0px solid #d4d4d4;
+    background: #d4d4d4;
+    border-radius: 10px;
+    color: #023d91;
+    padding: 50px 50px;
+    position: relative;
+    margin: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .responsive-inner {
+    transform: translateY(0%);
+    margin: 0px;
+  }
+  .banner-2 {
+    padding: 2rem 1rem;
+    width: 100%;
   }
 }
 /* end of rooms fitler*/
