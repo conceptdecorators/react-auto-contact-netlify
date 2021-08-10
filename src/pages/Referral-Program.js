@@ -43,7 +43,7 @@ const RefferalProgram = () => {
           <h4>Make an Inquiry</h4>
           <div></div>
         </div>
-        <div class="contact-form hero-wrapper">
+        <div class="contact-form hero-wrapper width-adjust">
           <span class="circle one"></span>
           <span class="circle two"></span>
 

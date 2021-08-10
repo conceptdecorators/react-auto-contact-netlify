@@ -362,7 +362,9 @@ h3 {
   background-color: var(--darkGrey);
   position: relative;
 }
-
+.width-adjust {
+  width: 50%;
+}
 .circle {
   border-radius: 50%;
   background: linear-gradient(135deg, transparent 20%, #1a2f3f, #7094ce);
@@ -723,7 +725,7 @@ p {
   background-position: center;
 }
 .responsive-inner {
-  transform: translateX(50%);
+  /* transform: translateX(50%); */
 }
 .banner-2 {
   display: inline-block;
@@ -769,6 +771,10 @@ p {
   .banner h1 {
     font-size: 3rem;
   }
+  .banner-2 {
+    transform: translateY(100%);
+    opacity: 0.9;
+  }
 }
 @media screen and (min-width: 992px) {
   .banner {
@@ -776,6 +782,10 @@ p {
   }
   .banner h1 {
     font-size: 4rem;
+  }
+  .banner-2 {
+    transform: translateY(150%);
+    opacity: 0.9;
   }
 }
 /* End of Banner */
@@ -1135,6 +1145,10 @@ p {
   .banner {
     padding: 2rem 3rem;
     opacity: 0.8;
+  }
+  .banner-2 {
+    transform: translateY(150%);
+    opacity: 0.9;
   }
   /* testimonal */
   .container .card .content {
