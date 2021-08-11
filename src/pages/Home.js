@@ -112,7 +112,7 @@ const home = () => {
           <div class="card">
             <div class="content">
               <h2>Nadir Osborne</h2>
-              <p>
+              <p style={{ color: "#fff" }}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
                 consequatur.
               </p>
@@ -125,7 +125,7 @@ const home = () => {
           <div class="card">
             <div class="content">
               <h2>Joyce Wrice</h2>
-              <p>
+              <p style={{ color: "#fff" }}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
                 consequatur.
               </p>

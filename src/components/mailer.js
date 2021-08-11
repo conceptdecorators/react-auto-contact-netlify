@@ -22,7 +22,7 @@ const Mailer = () => {
           Send us a quick note using the form below. We will get back to you
           very shortly. Remember, your comments and feedbacks are very important
           to best serve you and we appreciate them.If you would like to contact
-          us by phone, please call us at (267) 676-5005 during our business
+          us by phone, please call us at (215) 921-2788 during our business
           hours.
         </p>
       </div>

@@ -67,10 +67,21 @@ const RefferalProgram = () => {
           </div>
           <div className="flex3col">
             <h4>Referral Program Details</h4>
-            <p class="small-p">
+            <p class="small-p" style={{ margin: "5px" }}>
               Please follow these details that you need to understand for your
               referral to be valid:
             </p>
+            <li>
+              Fill Out the required form before the purchase is made visit
+              wizauto.com sales to buy a car.
+            </li>
+            <li>They must be interest party to purchase car.</li>
+            <li>Ad vitae vel nihil quibusdam quidem.</li>
+            <li>You will get a single payment per referral made.</li>
+            <li>
+              Wiz Auto will not honor forms that have not been properly
+              submitted as required after the purchase of the car.
+            </li>
           </div>
         </div>
       </div>

@@ -39,7 +39,7 @@ const Contact = () => {
               <div class="info">
                 <div class="information">
                   <img src="img/location.png" class="icon" alt="" />
-                  <p>92 Cherry Drive Uniondale, NY 11553</p>
+                  <p>5737 Elmwood Ave, Philadelphia, PA 19143</p>
                 </div>
                 <div class="information">
                   <img src="img/email.png" class="icon" alt="" />

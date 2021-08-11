@@ -13,7 +13,7 @@ const HostForm = () => {
           Send us a quick note using the form below. We will get back to you
           very shortly. Remember, your comments and feedbacks are very important
           to best serve you and we appreciate them.If you would like to contact
-          us by phone, please call us at (267) 676-5005 during our business
+          us by phone, please call us at (215) 921-2788 during our business
           hours.
         </p>
       </div>
@@ -31,15 +31,15 @@ const HostForm = () => {
             <div class="info">
               <div class="information">
                 <img src={FaTwitterSquare} class="icon" alt="" />
-                <p>92 Cherry Drive Philadelphia, PA 19122</p>
+                <p>5737 Elmwood Ave, Philadelphia, PA 19143</p>
               </div>
               <div class="information">
                 <img src="img/email.png" class="icon" alt="" />
-                <p>lorem@ipsum.com</p>
+                <p>info@wizauto.com</p>
               </div>
               <div class="information">
                 <img src="img/phone.png" class="icon" alt="" />
-                <p>123-456-789</p>
+                <p>(215) 921-2788</p>
               </div>
             </div>
 
@@ -64,14 +64,14 @@ const HostForm = () => {
             <span class="circle two"></span>
 
             <form
-              action="contact us"
-              method="post"
+              action="contact-us"
+              method="POST"
               data-netlify="true"
               onSubmit="submit"
               data-netlify-honeypot="bot-field"
               netlify
             >
-              <input type="hidden" name="form-name" value="contact us" />
+              <input type="hidden" name="form-name" value="contact-us" />
               <h3 class="title">Contact us</h3>
               <div class="input-container">
                 <input type="text" name="first-name" class="input" id="name" />
