@@ -52,6 +52,8 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <!-- contact us form -->
     <form
       action="contact-us"
       action="/"
@@ -73,9 +75,64 @@
       </div>
       <div class="input-container">
         <input type="tel" name="phone" class="input" id="phone" />
-        <label for="">Phone</label>
+        <label htmlFor="">Phone</label>
         <span>Phone</span>
       </div>
+      <div class="input-container textarea">
+        <textarea name="message" class="input" id="message"></textarea>
+        <label htmlFor="message">Message</label>
+        <span>Message</span>
+      </div>
+      <input type="submit" value="Send" class="btn" />
+    </form>
+    <!-- End contact us form -->
+
+    <!-- Refer-us contact us form -->
+    <form
+      action="refer-us"
+      action="/"
+      netlify-honeypot="bot-field"
+      netlify
+      hidden
+    >
+      <input type="hidden" name="form-name" value="refer-us" />
+      <h3 class="title">Contact us</h3>
+      <div class="input-container">
+        <input type="text" name="first-name" class="input" id="name" />
+
+        <label htmlFor="first-name">Referral Name</label>
+        <span>Referral Name</span>
+      </div>
+
+      <div class="input-container">
+        <input type="email" name="email" class="input" id="email" />
+        <label htmlFor="email">Referral Email</label>
+        <span>Referral Email</span>
+      </div>
+
+      <div class="input-container">
+        <input type="tel" name="phone" class="input" id="phone" />
+        <label htmlFor="phone">Referral Phone</label>
+        <span>Referral Phone</span>
+      </div>
+
+      <div class="input-container">
+        <input type="text" name="first-name" class="input" id="name" />
+
+        <label htmlFor="first-name">Name</label>
+        <span>Name</span>
+      </div>
+      <div class="input-container">
+        <input type="email" name="email" class="input" id="email" />
+        <label htmlFor="email">Email</label>
+        <span>Email</span>
+      </div>
+      <div class="input-container">
+        <input type="tel" name="phone" class="input" id="phone" />
+        <label htmlFor="phone">Phone</label>
+        <span>Phone</span>
+      </div>
+
       <div class="input-container textarea">
         <textarea name="message" class="input" id="message"></textarea>
         <label htmlFor="message">Message</label>
