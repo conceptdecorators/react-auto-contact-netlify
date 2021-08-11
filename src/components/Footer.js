@@ -20,7 +20,7 @@ const Footer = () => {
               <h2 className="footer-heading">About Us</h2>
               <a href="/referral/#work">How it works</a>
               <a href="/about">About</a>
-              <a href="/services">Services</a>
+              <a href="/car-delivery-service">Services</a>
               <a href="/rooms">Cars</a>
               <a href="/blog">Blog</a>
               {/* <a href="/">Testimonials</a>

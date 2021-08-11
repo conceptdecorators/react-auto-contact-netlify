@@ -145,7 +145,9 @@ h6 {
   overflow: hidden;
   transition: var(--mainTransition);
   list-style-type: none;
+  margin-left: 4rem;
 }
+
 .nav-links a {
   display: block;
   text-decoration: none;
@@ -355,6 +357,15 @@ h3 {
   padding-right: 15px;
   padding-left: 15px;
 }
+.flex3col h4 {
+  margin: 10px;
+}
+.refer3col {
+  width: 50%;
+}
+.small-p {
+  margin: 10px;
+}
 /* Contact us */
 .container {
   position: relative;
@@ -397,7 +408,7 @@ h3 {
   width: 130px;
   height: 130px;
   top: 130px;
-  right: -40px;
+  right: -24px;
 }
 
 .circle.two {
@@ -644,6 +655,20 @@ textarea.input {
   transform: translate(181%, 11%);
   opacity: 0.2;
 }
+
+/* delivery service */
+.text-image__base {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 81.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.875rem;
+}
+
+h2:first-child {
+  margin-top: 0;
+}
 @media screen and (min-width: 768px) {
   .nav-btn {
     display: none;
@@ -656,13 +681,15 @@ textarea.input {
   .nav-links {
     height: auto;
     display: flex;
-    margin-left: 4rem;
+    margin-left: -2rem;
   }
   .nav-links a {
     margin: 0 1rem;
     padding: 0.5rem 0;
   }
-
+  .nav-header img {
+    width: 100%;
+  }
   /* contact width */
   .width-adjust {
     width: 70%;
@@ -684,6 +711,12 @@ textarea.input {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .flexcolwrap {
+    margin: 50px;
+  }
+  .flex3col {
+    width: 100%;
   }
 }
 
@@ -725,6 +758,13 @@ p {
   background-color: var(--primaryColor);
   background-position: center;
   background-size: contain;
+}
+.deliveryHero {
+  background-image: url("./images/car-key.jpg");
+  min-height: 60vh;
+  background-color: var(--primaryColor);
+  background-position: center;
+  background-size: cover;
 }
 /* End of Hero */
 /* Banner */
@@ -828,6 +868,9 @@ p {
   }
 }
 @media screen and (min-width: 992px) {
+  .nav-links {
+    margin-left: 4rem;
+  }
   .banner {
     padding: 2rem 6rem;
   }
@@ -1157,11 +1200,23 @@ p {
   .filter-form {
     width: 70vw;
   }
+
+  .flex3col {
+    width: 33.333%;
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
 }
 @media screen and (min-width: 992px) {
   .filter-form {
     width: 95vw;
     max-width: 1170px;
+  }
+}
+@media (max-width: 1024px) {
+   {
+    width: 100%;
   }
 }
 @media (max-width: 991px) {
@@ -1244,7 +1299,7 @@ p {
 }
 @media (max-width: 560px) {
   .banner-2 {
-    width: 65%;
+    width: 100%;
   }
 }
 
@@ -1273,6 +1328,9 @@ p {
 
 /* Contact us */
 @media (max-width: 850px) {
+  .refer3col {
+    width: 100%;
+  }
   .form {
     grid-template-columns: 1fr;
   }

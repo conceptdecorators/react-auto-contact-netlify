@@ -76,7 +76,6 @@ const RefferalProgram = () => {
               wizauto.com sales to buy a car.
             </li>
             <li>They must be interest party to purchase car.</li>
-            <li>Ad vitae vel nihil quibusdam quidem.</li>
             <li>You will get a single payment per referral made.</li>
             <li>
               Wiz Auto will not honor forms that have not been properly

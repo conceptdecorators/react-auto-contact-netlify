@@ -8,6 +8,7 @@ import Error from "./pages/Error";
 import About from "./pages/About";
 import Referral from "./pages/Referral";
 import Contact from "./pages/Contact";
+import CarDeliveryService from "./pages/Car-Delivery-Service";
 
 import { Route, Switch } from "react-router-dom";
 
@@ -22,6 +23,11 @@ function App() {
         <Route exact path="/rooms/" component={Rooms} />
         <Route exact path="/about/" component={About} />
         <Route exact path="/referral/" component={Referral} />
+        <Route
+          exact
+          path="/car-delivery-service/"
+          component={CarDeliveryService}
+        />
         <Route exact path="/contact/" component={Contact} />
         <Route exact path="/rooms/:slug" component={SingleRoom} />
         <Route component={Error} />
