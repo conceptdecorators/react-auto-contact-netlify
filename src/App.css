@@ -721,9 +721,10 @@ p {
 }
 .contactHero {
   background-image: url("./images/car-sale-keys.png");
-  min-height: 58vh;
+  min-height: 60vh;
   background-color: var(--primaryColor);
   background-position: center;
+  background-size: contain;
 }
 /* End of Hero */
 /* Banner */
@@ -1225,7 +1226,7 @@ p {
     height: 300px;
   }
   .width-adjust {
-    width: 100%;
+    width: 80%;
   }
   .flexcolwrap {
     display: flex;
@@ -1241,6 +1242,12 @@ p {
     margin: 20px;
   }
 }
+@media (max-width: 560px) {
+  .banner-2 {
+    width: 65%;
+  }
+}
+
 @media (max-width: 320px) {
   .responsive-inner {
     transform: translateY(0%);
@@ -1249,6 +1256,17 @@ p {
   .banner-2 {
     padding: 2rem 1rem;
     width: 100%;
+  }
+  .banner-2 {
+    display: inline-block;
+    border-radius: 4px;
+    margin-right: 32px;
+    margin-top: 0px;
+    justify-content: center;
+    /* padding: 24px 56px 40px; */
+    width: 90%;
+    /* transform: translateY(145%); */
+    opacity: 0.9;
   }
 }
 /* end of rooms fitler*/

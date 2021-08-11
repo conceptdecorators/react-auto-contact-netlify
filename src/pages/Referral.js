@@ -36,7 +36,7 @@ const RefferalProgram = () => {
           </div>
         </div>
       </div>
-      <div className="filter-container">
+      <div className="filter-container" id="work">
         <div class="section-title">
           <h4> Take Advantage of our referral program and Earn extra money</h4>
           <div></div>
@@ -102,6 +102,8 @@ const RefferalProgram = () => {
             data-netlify="true"
             onSubmit="submit"
             data-netlify-honeypot="bot-field"
+            action="/success/"
+            netlify
           >
             <input type="hidden" name="form-name" value="refer-us" />
             <h3 class="title">Contact us</h3>

@@ -38,7 +38,7 @@ export default class Navbar extends Component {
               <Link to="/about">About</Link>
             </li>
             <li>
-              <Link to="/referral-program">Referral-Program</Link>
+              <Link to="/referral">Referral</Link>
             </li>
             <li>
               <Link to="/contact">Contact</Link>

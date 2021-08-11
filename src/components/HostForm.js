@@ -69,6 +69,7 @@ const HostForm = () => {
               data-netlify="true"
               onSubmit="submit"
               data-netlify-honeypot="bot-field"
+              action="/success/"
               netlify
             >
               <input type="hidden" name="form-name" value="contact-us" />

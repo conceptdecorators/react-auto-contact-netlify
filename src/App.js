@@ -6,7 +6,7 @@ import Rooms from "./pages/Cars";
 import SingleRoom from "./pages/SingleRoom";
 import Error from "./pages/Error";
 import About from "./pages/About";
-import ReferralProgram from "./pages/Referral-Program";
+import Referral from "./pages/Referral";
 import Contact from "./pages/Contact";
 
 import { Route, Switch } from "react-router-dom";
@@ -21,7 +21,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/rooms/" component={Rooms} />
         <Route exact path="/about/" component={About} />
-        <Route exact path="/referral-program/" component={ReferralProgram} />
+        <Route exact path="/referral/" component={Referral} />
         <Route exact path="/contact/" component={Contact} />
         <Route exact path="/rooms/:slug" component={SingleRoom} />
         <Route component={Error} />

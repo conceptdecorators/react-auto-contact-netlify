@@ -18,10 +18,10 @@ const Footer = () => {
           <div className="footer_link-wrapper">
             <div className="footer_link-items">
               <h2 className="footer-heading">About Us</h2>
-              <a href="/">How it works</a>
+              <a href="/referral/#work">How it works</a>
               <a href="/about">About</a>
               <a href="/services">Services</a>
-              <a href="/sync">Sync</a>
+              <a href="/rooms">Cars</a>
               <a href="/blog">Blog</a>
               {/* <a href="/">Testimonials</a>
               <a href="/">Careers</a> */}
@@ -31,10 +31,8 @@ const Footer = () => {
 
             <div className="footer_link-items">
               <h2 className="footer-heading">Contact Us</h2>
-              <a href="/">Contact</a>
+              <a href="/contact">Contact</a>
               <a href="/faq">Faq</a>
-              <a href="/">Destination</a>
-              <a href="/">Sponsorship</a>
             </div>
           </div>
           <div className="footer_link-wrapper">
