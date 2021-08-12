@@ -113,8 +113,8 @@ const home = () => {
             <div class="content">
               <h2>Nadir Osborne</h2>
               <p style={{ color: "#fff" }}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
-                consequatur.
+                This is the best car shop in town! The gentleman is very
+                personable, efficient and has amazing prices!
               </p>
               <a href="#" class="btn">
                 Read More
@@ -126,8 +126,9 @@ const home = () => {
             <div class="content">
               <h2>Joyce Wrice</h2>
               <p style={{ color: "#fff" }}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
-                consequatur.
+                Excellent customer service: the staff is extremely cordial,
+                professional, and patient. They listen to your concerns without
+                rushing you and help you to understand all the options.
               </p>
               <a href="#" class="btn">
                 Read More

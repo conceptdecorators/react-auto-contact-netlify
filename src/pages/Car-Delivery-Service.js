@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
 import ImageOne from "./../images/car-smile-turn.jpg";
+import ImageTwo from "./../images/car-audi.png";
 import Footer from "../components/Footer";
 const CarDeliveryService = () => {
   return (
@@ -20,7 +21,7 @@ const CarDeliveryService = () => {
           <div></div>
         </div>
 
-        <div class="flexcolwrap">
+        <div class="flexcolwrap grey-back">
           <div class="refer3col">
             <img
               src={ImageOne}
@@ -57,56 +58,57 @@ const CarDeliveryService = () => {
           </div>
         </div>
 
-        <div className="component__base text-image__base">
-          <div className="component__body text-image__body">
-            <div className="text-image__content">
-              <div className="text-image__image-wrapper">
-                <figure>
-                  <picture>
-                    <img src={ImageOne} alt="" />
-                  </picture>
-                </figure>
-              </div>
+        <div class="flexcolwrap tabs-vertical">
+          <div class="col tab">
+            <h4>What Is the Cost? </h4>
+            <p class="small-p">
+              As with any shipment, you know there are variables that go into
+              shipping your car based on where it is shipped from and how far
+              you're going .
+            </p>
+            <p class="small-p">
+              We will do an estimate of your destination and determine the best
+              your budget.Transportation costs average around $50 for every 100
+              mile's but multiple variables influence the final cost once .
+            </p>
+          </div>
 
-              <div className="text-image__text">
-                <h2>How we conduct our business </h2>
-                <br />
-                <p>
-                  The&nbsp;Shell General Business Principles are central to how
-                  we conduct our business and living by them is crucial to our
-                  continued success. We are judged by how we act and how we live
-                  up to our core values of honesty, integrity and respect for
-                  people. Our Business Principles are based on these. They
-                  promote trust, openness, teamwork and professionalism, as well
-                  as pride in what we do and how we conduct business.
-                </p>
-              </div>
-            </div>
+          <div class="col tab">
+            <h4>How Far Do You Ship Cars?</h4>
+            <p class="small-p">
+              We ship locally and nationwide. Transportation costs on average
+              for moving a car is $0.60 per mile for trips of 1,000 miles or
+              more.
+            </p>
+          </div>
+
+          <div class="col tab">
+            <h4>What Options Available ? </h4>
+            <p class="small-p">
+              We work with you to give you options that are accessible to your
+              needs. Assessing your needs help us to give you the best option
+              that fits your budget .
+            </p>
+            <p class="small-p">
+              We will do an estimate of your destination and determine the best
+              your budget.Transportation costs average around $50 for every 100
+              mile's but multiple variables influence the final cost once .
+            </p>
+          </div>
+
+          <div
+            className="img-container img-container-block"
+            style={{ height: "auto", width: "50%" }}
+          >
+            <img
+              src={ImageTwo}
+              alt=""
+              class="img-inner img-block img-contain"
+            />
           </div>
         </div>
 
-        <div className="widget">
-          <h4 class="paragraph">
-            Wiz Auto are proud to serve the tri-state area with great deals on
-            cars, vans, SUV and shop our virtual showroom. Wiz Auto are
-            committed to our customers delivering quality pre-owned vehicles
-            while maintaining the highest standards of customer service.
-          </h4>
-          <h4 class="paragraph">
-            We sell recently purchased cars, inspected, maintained and keeping
-            you safe while driving. Our vehicle fleet undergoes rigorous
-            inspections and services for your peace of mind.
-          </h4>
-          <h4 class="paragraph">
-            Our experienced sales staff are eager for drivers to find their next
-            car that fits your budget, and we’re excited to do the same for you.
-            Most drivers have a busy life and are on the go constantly here at
-            Wiz Auto we sell cars accessible to you in various makes and models
-            Toyota, Ford, Chevy, Honda and much more. A reliable vehicle is
-            paramount; it's our mission to ensure that you have access to a
-            great selection to choose from.
-          </h4>
-        </div>
+        <div className="component__base text-image__base"></div>
       </section>
 
       <Footer />

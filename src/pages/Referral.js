@@ -48,8 +48,8 @@ const RefferalProgram = () => {
           </p>
         </div>
 
-        <div className="flexcolwrap">
-          <div className="flex3col">
+        <div className="flexcolwrap grey-back">
+          <div className="flex3col text-image__base">
             <h4>How it works</h4>
             <p class="small-p">
               It's simple and there's no limit, fill out the form with the

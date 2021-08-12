@@ -63,7 +63,7 @@ const About = () => {
           </a>
         </div>
 
-        <div className="widget">
+        {/* <div className="widget">
           <h4 class="paragraph">
             Wiz Auto are proud to serve the tri-state area with great deals on
             cars, vans, SUV and shop our virtual showroom. Wiz Auto are
@@ -84,7 +84,7 @@ const About = () => {
             paramount; it's our mission to ensure that you have access to a
             great selection to choose from.
           </h4>
-        </div>
+        </div> */}
       </section>
 
       <Footer />
