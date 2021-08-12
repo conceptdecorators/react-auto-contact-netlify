@@ -685,9 +685,9 @@ textarea.input {
   box-sizing: border-box;
   width: 100%;
   max-width: 81.25rem;
-  margin-left: auto;
+  /* margin-left: auto;
   margin-right: auto;
-  padding: 1.875rem;
+  padding: 1.875rem; */
 }
 
 h2:first-child {
@@ -702,7 +702,19 @@ h2:first-child {
   position: relative;
   overflow: hidden;
 }
-
+.img-car {
+  height: auto;
+  width: 50%;
+}
+.feature-box__image-container {
+  position: absolute;
+  bottom: 9.25rem;
+  right: 0;
+  width: calc(40% + 190px);
+  max-width: none;
+  -webkit-transform: translate3d(190px, 0, 0);
+  transform: translate3d(190px, 0, 0);
+}
 @media screen and (min-width: 768px) {
   .nav-btn {
     display: none;
@@ -747,7 +759,7 @@ h2:first-child {
     align-items: center;
   }
   .flexcolwrap {
-    margin: 50px;
+    margin: 100px;
   }
   .flex3col {
     width: 100%;
@@ -1297,6 +1309,28 @@ p {
     transform: translateY(20%);
     margin: 0px;
   }
+
+  element.style {
+  }
+  .img-container:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .flexcolwrap {
+    margin: 10px;
+  }
+}
+@media (max-width: 420px) {
+  .img-container {
+    position: relative;
+  }
+  .feature-box__image-container {
+    position: absolute;
+    bottom: 78.25rem;
+    right: 0;
+    width: calc(40% + 190px);
+    max-width: none;
+    transform: translate3d(16px, 0, 0);
+  }
   .banner {
     padding: 2rem 3rem;
     opacity: 0.8;
@@ -1333,6 +1367,11 @@ p {
     padding: 20px;
     position: relative;
     margin: 20px;
+  }
+
+  .img-car {
+    height: auto;
+    width: 50%;
   }
 }
 @media (max-width: 560px) {

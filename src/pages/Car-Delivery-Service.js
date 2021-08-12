@@ -59,6 +59,14 @@ const CarDeliveryService = () => {
         </div>
 
         <div class="flexcolwrap tabs-vertical">
+          <div className="img-container img-container-block img-car feature-box__image-container">
+            <img
+              src={ImageTwo}
+              alt=""
+              class="img-inner img-block img-contain"
+            />
+          </div>
+          <div className="middle component__base text-image__base"></div>
           <div class="col tab">
             <h4>What Is the Cost? </h4>
             <p class="small-p">
@@ -94,17 +102,6 @@ const CarDeliveryService = () => {
               your budget.Transportation costs average around $50 for every 100
               mile's but multiple variables influence the final cost once .
             </p>
-          </div>
-
-          <div
-            className="img-container img-container-block"
-            style={{ height: "auto", width: "50%" }}
-          >
-            <img
-              src={ImageTwo}
-              alt=""
-              class="img-inner img-block img-contain"
-            />
           </div>
         </div>
 

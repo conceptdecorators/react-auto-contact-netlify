@@ -32,7 +32,7 @@ export default class RoomProvider extends Component {
       let featuredRooms = rooms.filter((room) => room.featured === true);
       //
       let maxPrice = Math.max(...rooms.map((item) => item.price));
-      let maxSize = Math.max(...rooms.map((item) => item.size));
+      let maxSize = Math.max(...rooms.map((item) => item.miles));
       this.setState({
         rooms,
         featuredRooms,
@@ -101,7 +101,7 @@ export default class RoomProvider extends Component {
     tempRooms = tempRooms.filter((room) => room.price <= price);
     //filter by size
     tempRooms = tempRooms.filter(
-      (room) => room.size >= minSize && room.size <= maxSize
+      (room) => room.miles >= minSize && room.miles <= maxSize
     );
     //filter by automatic
     if (automatic) {

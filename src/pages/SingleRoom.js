@@ -5,6 +5,7 @@ import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
 import { RoomContext } from "../context";
 import StyledHero from "../components/StyledHero";
+import Footer from "../components/Footer";
 export default class SingleRoom extends Component {
   constructor(props) {
     super(props);
@@ -33,7 +34,7 @@ export default class SingleRoom extends Component {
       name,
       description,
       capacity,
-      size,
+      miles,
       price,
       extras,
       automatic,
@@ -66,13 +67,15 @@ export default class SingleRoom extends Component {
             <article className="info">
               <h3>info</h3>
               <h6>price : ${price}</h6>
-              <h6>size : ${size} SQFT</h6>
+              <h6>miles : {miles} Miles</h6>
               <h6>
                 max capacity :{" "}
                 {capacity > 1 ? `${capacity} people` : ` ${capacity} person `}
               </h6>
-              <h6>{manual ? "manual allowed" : "no manual allowed"}</h6>
-              <h6>{automatic && "free automatic included"}</h6>
+              <h6>
+                {manual ? "manual Transmission" : "no manual Transmission"}
+              </h6>
+              <h6>{automatic && "automatic Transmission included"}</h6>
             </article>
           </div>
         </section>
@@ -84,6 +87,7 @@ export default class SingleRoom extends Component {
             })}
           </ul>
         </section>
+        <Footer />
       </>
     );
   }
