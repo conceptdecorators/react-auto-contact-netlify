@@ -96,7 +96,7 @@ const RefferalProgram = () => {
           <span class="circle two"></span>
 
           <form
-            action="refer-us"
+            action="refer us"
             method="post"
             data-netlify="true"
             onSubmit="submit"
