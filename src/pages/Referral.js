@@ -96,15 +96,15 @@ const RefferalProgram = () => {
           <span class="circle two"></span>
 
           <form
-            action="refer us"
-            method="post"
+            name="refer-us"
+            method="POST"
             data-netlify="true"
             onSubmit="submit"
             data-netlify-honeypot="bot-field"
             action="/success/"
             netlify
           >
-            <input type="hidden" name="form-name" value="refer-us" />
+            {/* <input type="hidden" name="form-name" value="refer-us" /> */}
             <h3 class="title">Contact us</h3>
             <div class="input-container">
               <input type="text" name="first-name" class="input" id="name" />

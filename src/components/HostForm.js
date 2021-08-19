@@ -64,7 +64,7 @@ const HostForm = () => {
             <span class="circle two"></span>
 
             <form
-              action="contact us"
+              name="contact-us"
               method="POST"
               data-netlify="true"
               onSubmit="submit"
